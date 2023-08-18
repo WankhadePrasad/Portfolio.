@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad wankhade portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color :white;
+             font-family: 'poppins', sans-serif
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30 px;
+            background-color: aquamarine;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+           color: azure; 
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+            color: rgb(118, 118, 233);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.2rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+        } 
+        .firstsection > div{
+            width: 30%;
+        }
+        .leftsection{
+            
+            font-size: 2rem;
+        }
+        .rightsection img{
+            width:80% ;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(144, 92, 193);
+        }
+        #element{
+            color: rgb(144, 92, 193);
+        }
+        .secondsection{
+           max-width: 80vw;  ;
+            margin:auto;
+            height: 60vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header> 
+    </header>
+     <nav>
+            <div class="left">PRASAD PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+                    <li><a href="/">RESUME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+<Main>
+    <section class="firstsection">
+        <div class="leftsection">
+            HI, MY NAME IS <span class="purple">PRASAD</span>
+        
+        <div> AND IAM A  WEB 3 DEVLOPER</diV>
+            <span id="element"></span>
+            </div>
+        <div class="rightsection">
+            <img src="bg.png.png" alt="">
+            
+        </div>    
+    </section>
+    <hr>
+    <section class="secondsection">
+        <h1>My skills :-</h1>
+     <div class="box"></div>
+     <img src="react.png" alt="">
+     <img src="css.png" alt="">
+<img src="html.png" alt="">
+<img src="javascript.png" alt="">
+<img src="mongo db.png" alt="">
+<img src="github.png" alt="">
+</section>
+</Main>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['ENGINEER.', 'WEB 3 DEVLOPER.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
